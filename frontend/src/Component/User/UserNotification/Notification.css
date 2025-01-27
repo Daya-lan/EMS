@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#user-Notification-Main-Parent{
+    height: 100vh;
+    background-color: black;
+}
+
+#User-Notification-Second-Parent{
+    background-color:black;
+    color: gray;
+    width: 100%;
+}
+
+#User-Notification-Heading{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 0.5em;
+
+}
+#User-Notification-Heading p{
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#User-First-Child{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+#user-Notification-message{
+    
+    margin-top: 20px;
+    font-size: 1.6vw;
+    background-color: rgb(243,230,235);
+    border-radius: 1em;
+    padding: 0.5em;
+    color:gray;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+}
+#user-Notification-message p{
+ 
+}
+
+#user-Notification-message-icon{
+    font-size: 2vw;
+    color: rgb(220,155,162);
+}
+
+#user-Notification-Message-buttons{
+    display:flex;
+    justify-content: end;
+}
+
+#user-Notification-Message-buttons button{
+    padding: 1em 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    border:none;
+    font-size: 1vw;
+    border-radius: 1em;
+}
+#user-Notification-Message-buttons button:hover{
+    background-image: linear-gradient( to right , rgb(243,230,235) , rgb(231,129,139));
+    color:black;
+}

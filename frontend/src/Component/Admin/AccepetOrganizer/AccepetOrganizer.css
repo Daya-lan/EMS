@@ -1,0 +1,383 @@
+
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+
+#Accepted-Organizer-Main-Parent{
+    /* background-color: rgb(97, 56, 116); */
+    background-image:url("../../images/240_F_862653404_ng4lHWj9q4KSQjPQ3UaNQUhf5SxZXjxT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+#Accepted-Organizer-Heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw ;     
+}
+
+#Accepted-Organizer-second-Parent{
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#Accepted-Organizer-second-Parent table{
+    gap: 2vw ;
+    padding: 1vw ;
+}
+
+#Accepted-Organizer-second-Parent table th{
+    padding:2vw 2vw ;
+    font-size: 1.6vw ;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+#Accepted-Organizer-second-Parent table td{
+    padding:1vw; 
+    text-align: center;
+    font-size: 1.2vw ;
+    font-weight: 400 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+#Accepted-Organizer-second-Parent table tr{
+    
+}
+
+
+
+
+#AdminManagevent-Update-and-dlt-icon-parent{
+    gap: 1vw ;
+}
+
+#AdminManageEvent-Update-Icons{
+    font-size: 1.5vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    /* padding: 0.3vw ; */
+    
+}
+#AdminManageEvent-Dlt-Icons{
+    font-size: 1.6vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF0066;
+    color: white;
+    /* padding: 0.3vw ; */
+    
+    
+}
+
+#AdminMangaeEvent-Organizer-icon{
+    font-size: 1.3vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5eb9a0;
+    color: white;
+    /* padding: 0.3vw ; */
+}
+
+
+.modal-footer button{
+    padding: 1em 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    border:none;
+}
+.modal-footer button:hover{
+    background-image: linear-gradient( to right , rgb(12, 10, 107) , white);
+    color: white;
+}
+
+#Accepted-Organizer-Search-box{
+    gap: 0.5em;
+}
+
+#Accepted-Organizer-Search-box label{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    color: aliceblue;
+}
+#Accepted-Organizer-Search-box input{
+    width: 15vw;
+    padding: 0.7vw; 
+    gap: 1em ;
+    box-shadow: -0.5px 0.5px 5px rgb(131, 130, 130);
+    border-radius: 0.3em;
+    border: 0.1px;
+}
+#Accepted-Organizer-Search-box input:focus{
+    box-shadow: -0.5px 0.5px 5px rgb(131, 130, 130);
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+}
+
+#Accepted-Organizer-Search-Icon{
+    margin-left:12vw;
+    padding-top:10px;
+    font-size: 1.6vw;
+}
+
+#Accepted-Organizer-Search-box input::placeholder{
+    font-size: 1.3em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#AdminEvent-delete-model-body{
+
+    font-size: 1.3em;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+#update-Status-Main-Parent label{
+    font-size: 1.4em;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+#update-Status-Main-Parent select {
+    width: 100%;
+    padding: 0.7vw ; 
+    gap: 1em ;
+    box-shadow: -0.5px 0.5px 5px  darkgray;
+    border-radius: 0.3em;
+    border: 0.1px;
+}
+
+#Admin-Delete-Event-Buttons button{
+    background-color: #FF0066;
+}
+
+#Admin-Delete-Event-Buttons button:hover{
+    background-image: linear-gradient( to right , rgb(30, 178, 114) , white);
+    color: white;
+}
+
+#Organizer-Image img {
+    width: 100px;
+}
+
+                    /* Accepted Organizer message CSS */
+ 
+ #Accepted-Organizer-Message{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+     height: 100%; 
+}
+
+
+
+
+
+    /* Another css  */
+
+
+
+
+
+
+            /* Delete Model  */
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    #Accepted-Organizer-Heading{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em ;     
+    }
+
+    #Accepted-Organizer-second-Parent table{
+        gap: 2em ;
+        padding: 1em ;
+    }
+
+    #Accepted-Organizer-second-Parentv table th{
+        padding:2vw 1em ;
+        font-size: 1.2em ;
+    }
+
+    #Accepted-Organizer-second-Parent table td{
+        padding: 2.4vw ; 
+        font-size: 1.2em ;
+    }
+
+
+    #AdminManagevent-Update-and-dlt-icon-parent{
+        gap: 0.3em ;
+    }
+
+    #AdminManageEvent-Update-Icons{
+        font-size: 2em ;
+        padding: 0.3vw ;
+        
+    }
+
+    #AdminManageEvent-Dlt-Icons{
+        font-size: 2em ;
+        padding: 0.3vw ;
+    }
+    #Accepted-Organizer-Search-box label{
+        font-size: 7vw;
+    }
+
+    #Accepted-Organizer-Search-box input{
+        width: 50vw;
+    }
+
+    #Accepted-Organizer-Search-Icon{
+        margin-left:35vw;
+        font-size: 1em;
+        
+    }
+}
+
+
+                            /* Update Organizer  */
+
+#Update-Organizer-model-body{
+    background-image:url("../../images/240_F_984075694_uYUeJLLk9D3pEmRG4JBfRjBlq0gs9963.jpg") ;
+}
+
+#update-Organizer-main-Parent{
+    display: flex;
+    width: 100%;
+
+}
+
+#Update-Organizer-Heading{
+    font-size: 2.5vw ;
+    color: whitesmoke;
+}
+
+#Update-Organizer-Second-Parent main{
+    gap: 0.5em ;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#Update-Organizer-Second-Parent main label{
+    color: white;
+}
+
+#Update-Organizer-Second-Parent main input[type="file"]{
+    background-color: white;
+}
+
+#Update-Organizer-Second-Parent main input{
+    width: 100%;
+    padding: 0.7vw ; 
+    gap: 1em ;
+    box-shadow: -0.5px 0.5px 5px #FF0066;
+    border-radius: 0.3em;
+    border: 0.1px;
+}
+#Update-Organizer-Second-Parent main input:focus {
+    box-shadow: -0.5px 0.5px 5px rgb(56,0,108);
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+}
+
+#Update-Organizer-First-Child{
+    gap: 2.5vw;
+    padding-left: 1.6vw ;
+}
+
+#Update-Organizer-Second-Child{
+    gap: 2.5vw;
+    padding-left: 1.6vw ;
+}
+
+#Update-Organizer-Third-Child{
+    gap: 2.5vw;
+    padding-left: 1.6vw ;
+}
+
+
+
+#Update-Organizer-Second-Parent main textarea{
+    box-shadow: -0.5px 0.5px 10px #FF0066;
+    border-radius: 0.3em;
+    border: 0.1px;
+    padding: 1.3vw ;
+}
+
+#Update-Organizer-Second-Parent main textarea:focus{
+    border: none;
+    outline: none;
+    box-shadow: -0.5px 0.5px 5px rgb(56,0,108);
+}
+
+
+
+/* #AddEvent-Second-Child input{
+    width: 100%;
+    padding: 0.6em; 
+    gap: 1em;  
+} */
+
+
+#EventName-Parent{
+    top: 0px;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0 ;
+}
+
+#Update-Organizer-Buttons button{
+    padding: 1em 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    border:none;
+}
+
+#Update-Organizer-Buttons button:hover{
+    background-image: linear-gradient( to right , #F41894 , #6F1D67);
+    color:white;
+}
+
+
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    #Update-Organizer-Buttons button{
+        padding: 2vw ;
+        width: 200px;
+        font-size: 1em ;
+        border-radius: 0.5em;
+    }
+
+    #Update-Organizer-Heading{
+        font-size: 1.5em ;
+    }
+}

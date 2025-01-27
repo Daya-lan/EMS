@@ -1,0 +1,211 @@
+* {
+  padding: 0px ;
+  margin: 0px ;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+
+#frontEndRegisterMainParent {
+  background-image:url("../images/polygonImg.jpg") ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#frontEndRegisterSecondParent {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto ;
+  width: 80%;
+  /* height:90vh ; */
+  border-radius: 1em;
+}
+
+#RegisterFormParent {
+  display: flex;
+  flex-direction: column;
+}
+
+#RegisterFormParent form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6;
+}
+
+#RegisterImgParent img {
+ 
+}
+
+#Register-Top-Icon-Parent{
+    font-size: 4vw;
+    background-color: rgb(97, 56, 116);
+    width: 100px;
+    margin: 20px auto ;
+    border-radius: 5em;
+}
+
+#RegisterFormParent form input {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid gray;
+  background-color: white;
+  /* font-size: 1.5em; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#RegisterFormParent form input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+::placeholder {
+  color: gray;
+}
+
+#Event-Register-Button button {
+  width: 25vw;
+  padding: 0.7em ;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: none;
+  border-radius: 2em;
+  margin-top: 1.5em ;
+  margin-bottom: 1em ;
+}
+#Event-Register-Button button:hover {
+  cursor: pointer;
+  color: black;
+  background-image: linear-gradient(to right, rgb(244, 86, 131), white);
+  
+}
+
+#sign-Up-parent h1 {
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Login-error-shower{
+
+  background-color: rgb(252, 91, 91);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  color:white;
+  box-shadow: rgba(228, 42, 67, 0.85) -2px 6px 4px ;
+  text-shadow:rgba(6, 6, 6, 0.85) -2px 2px 4px ;
+  border-radius: 0.5em;
+}
+
+#Register-Sign-In-Parent p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  color: black;
+}
+
+                /* media-query-session */
+
+@media screen and (max-width: 760px) and (min-width: 300px) {
+  #RegisterImgParent img {
+    /* display: none; */
+    width: 120%;
+    height: 95vh;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  #Register-Password-Eye {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 60% ;
+  }
+
+  #Register-ConfirmPassword-Eye {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 60% ;
+  }
+  #Register-Name-Icone {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 60% ;
+  }
+  #Register-Email-Icon {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 60% ;
+  }
+  #Register-Email-Icon {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 60% ;
+  }
+  #Register-userName-icon {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 60% ;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #Register-Password-Eye {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 20% ;
+  }
+
+  #Register-ConfirmPassword-Eye {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 20% ;
+  }
+
+  #Register-Name-Icone {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 20% ;
+  }
+  #Register-Email-Icon {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 20% ;
+  }
+  #Register-Email-Icon {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 20% ;
+  }
+  #Register-userName-icon {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 20% ;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+  #Event-Register-Button button {
+    width: 250px;
+    padding: 0.7em ;
+    font-size: 1em;
+   
+  }
+}

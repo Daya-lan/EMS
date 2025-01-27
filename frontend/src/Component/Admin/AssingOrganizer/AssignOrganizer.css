@@ -1,0 +1,148 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+
+#Assign-Organizer-model-body{
+    background-image:url("../../images/scene-haikei (1).png") ;
+}
+
+#Assign-Organizer-Second-Parent{
+    display: flex;
+    width: 100%;
+
+}
+
+#Assign-Organizer-Heading{
+    font-size: 2.5vw ;
+}
+
+#Assign-Organizer-Second-Parent main{
+    gap: 0.5em ;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#Assign-Organizer-Second-Parent main input{
+    width: 100%;
+    padding: 0.7vw ; 
+    gap: 1em ;
+    box-shadow: -0.5px 0.5px 5px #FF0066;
+    border-radius: 0.3em;
+    border: 0.1px;
+}
+#Assign-Organizer-Second-Parent main input:focus {
+    box-shadow: -0.5px 0.5px 5px rgb(56,0,108);
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+}
+
+#Assign-Organizer-First-Child{
+    gap: 2.5vw;
+    padding-left: 1.6vw ;
+}
+
+#Assign-Organizer-Second-Child{
+    gap: 2.5vw;
+    padding-left: 1.6vw ;
+}
+
+#Assign-Organizer-Third-Child{
+    gap: 2.5vw;
+    padding-left: 1.6vw ;
+}
+
+#Assign-Organizer-button-parent{
+    gap: 2.5vw;
+    padding-left: 1.6vw ;
+}
+#Assign-Organizer-Heading{
+    margin-top: 30px;
+    padding-left: 1.6vw ;
+}
+
+/* #AddEvent-First-Child input{
+    width: 100%;
+    padding: 0.6em;
+      
+} */
+
+#Assign-Organizer-Second-Parent main textarea{
+    box-shadow: -0.5px 0.5px 10px #FF0066;
+    border-radius: 0.3em;
+    border: 0.1px;
+    padding: 1.3vw ;
+}
+
+#Assign-Organizer-Second-Parent main textarea:focus{
+    border: none;
+    outline: none;
+    box-shadow: -0.5px 0.5px 5px rgb(56,0,108);
+}
+
+
+
+/* #AddEvent-Second-Child input{
+    width: 100%;
+    padding: 0.6em; 
+    gap: 1em;  
+} */
+
+
+#EventName-Parent{
+    top: 0px;
+}
+
+#Assign-Organizer-button-parent button{
+    padding: 1vw ;
+    width: 30vw;
+    font-size: 1.4vw ;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+    margin-bottom: 1em ;
+    border:rgb(240, 58, 58);
+    outline: none;
+}
+
+#Assign-Organizer-button-parent button:hover{
+    color: black;
+    background-image: linear-gradient(to right, white, rgb(97, 56, 116));
+    box-shadow: rgba(68, 44, 80, 0.85) -2px 6px 4px ;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0 ;
+}
+
+#Assign-Organizer-Buttons button{
+    padding: 1em 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    border:none;
+}
+
+#Assign-Organizer-Buttons button:hover{
+    background-image: linear-gradient( to right , #F7CACA , white);
+    color:black;
+}
+
+
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    #Assign-Organizer-button-parent button{
+        padding: 2vw ;
+        width: 200px;
+        font-size: 1em ;
+        border-radius: 0.5em;
+    }
+
+    #Assign-Organizer-Heading{
+        font-size: 1.5em ;
+    }
+}

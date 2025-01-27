@@ -1,0 +1,163 @@
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+             /* INFORFAMATION STARTING */
+
+
+             #User-Dashbord-Footer-Main-Parent{
+
+                background-color:black;
+                color: white;
+                /* width: 100%;
+                height: 100%; */
+            }
+        
+            #user-Dashboard-second-parent{
+        
+                display: flex;
+                width: 100%;
+                height: 100%    ;
+            }
+        
+            #user-Dashboard-information{
+        
+                
+                font-family: Arial, Helvetica, sans-serif;
+                display: block;
+                width: 45%;
+                height: 100%;
+                margin: 0px auto;
+        
+            }
+        
+            #user-Dashboard-end-line{
+        
+                display: block;
+                width: 100%;
+                margin: 20px auto;
+            }
+        
+            #user-Dashboard-contact-line{
+        
+                border: 1px solid white;
+                width: 40px;
+            }
+        
+            #user-Dasboard-contact{
+        
+                font-size: 1.5em;
+                font-weight: bolder;
+            }
+        
+            #user-Dashboard-info-one{
+        
+                display: block;
+                width: 100%;
+                margin: 40px auto;
+                
+                
+            }
+        
+            #user-Dashboard-address{
+        
+                font-weight: lighter;
+                width: 80%;
+                font-size:1em;
+                text-transform:uppercase;
+            }
+        
+            #user-Dashboard-info-two{
+        
+                text-transform: uppercase;
+                margin-top: 40px;
+                gap: 2em;
+            }
+        
+            #user-Dashboard-info-three{
+        
+                display: flex;
+                font-size: 2em;
+                gap: 1em;
+                margin-top: 20px;
+        
+            }
+        
+            #user-Dashboard-Personal{
+        
+                display: block;
+                width: 100%;
+                margin: 0px auto;
+            }
+        
+            #user-Dashboard-info-four{
+        
+                display: block;
+                width: 100%;
+                margin: 0px auto;
+                text-transform: uppercase;
+                margin-top: 100px;
+                word-spacing:10px ;
+                padding-bottom: 3em;
+            }
+        
+        
+                                /* END INFORMATION */
+        
+        
+                                /* FORM STARTING */
+                        
+        
+        
+      #User-Dashbord-Footer-Main-Parent  form{
+        
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            margin-top: 30px;
+        }
+        
+        #User-Dashbord-Footer-Main-Parent  form tr{
+           
+
+        }
+        
+        #User-Dashbord-Footer-Main-Parent  form td{
+        
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1em;
+            font-weight: 100;
+        }
+        
+        #User-Dashbord-Footer-Main-Parent  form input[type]{
+        
+            padding: 1em 20em 1em 1em;
+            background-color: transparent;
+            border: 2px solid white;
+            gap: 2em;
+            color: whitesmoke;
+        }
+        
+        #User-Dashbord-Footer-Main-Parent  form  textarea{
+        
+            background-color: transparent;
+            border: 2px solid white;
+            
+        }
+        
+        #User-Dashbord-Footer-Main-Parent  form button{
+        
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            margin-top: 20px;
+            padding: 1em 3em;
+        }
+        
+        .submit{
+        
+            padding-bottom: 15em;
+        }

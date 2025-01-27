@@ -1,0 +1,161 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+
+
+#Login-Section-Main-Parent{
+    height: 100vh;
+    width: 100%;
+    background-image:url("../images/cube-geometry-gradient-4k-hd-abstract-shapes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#Login-Section-Second_Parent{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Login-Section-Child{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#Login-Form-Main-Parent{
+
+    width: 90%;
+}
+
+#Login-Form-Second-Parent{
+    width: 100%;
+}
+
+#Login-Form-Second-Parent form{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Login-Form-Second-Parent form label{
+    font-size:1.2vw,8vw ;
+    font-weight: 600;
+}
+
+#Login-Form-Second-Parent form div{
+    flex-direction: column;
+
+}
+
+#login-userName-icon{
+    position: absolute;
+    margin-left:80% ;
+    font-size: 20px ;
+}
+
+#Login-Password-icon{
+    position: absolute;
+    margin-left:80% ;
+    font-size: 25px ;
+}
+
+#Login-Form-Second-Parent form div input{
+    width:100%;
+    padding:0.5em ;   
+    
+}
+#Login-Form-Second-Parent form div input:focus{
+    border: solid rgb(97, 56, 116); 
+    outline: none;  
+}
+
+#Top-Icon-Parent{
+    font-size: 60px  ;             /* 4em*/
+    background-color: rgb(97, 56, 116);
+    width: 100px;
+    margin: 20px auto ;
+    border-radius: 5em;
+}
+
+#Login-Heading{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-size:2rem;
+}
+
+#Top-Line{
+
+    border-top: 2px solid black;
+    width: 40%;
+}
+
+#bottom-line{
+    border-top: 2px solid black;
+    width: 40%;
+}
+
+#Login_heading-Main-Parent{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Forget-password-parent p:hover{
+    cursor: pointer;
+}
+#Forget-password-parent p{
+    color: black;
+}
+
+#Login-button button{
+    padding: 0.7em ;
+    width:30vw;
+    font-size:1.2em;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+    margin-bottom: 1.5vw ;
+    border:rgb(240, 58, 58);
+    outline: none;
+}
+
+#Login-button button:hover{
+    color: black;
+    background-image: linear-gradient(to right, white, rgb(97, 56, 116));
+    box-shadow: rgba(68, 44, 80, 0.85) -2px 6px 4px ;
+}
+
+#login-input-parent{
+    position: relative;
+}
+
+#Login-sign-up-Parent p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    #Login-button button{
+        padding: 0.5em ;
+        width:300px;
+        font-size:1.2em;
+        margin-bottom: 1.5vw ;
+}
+
+}

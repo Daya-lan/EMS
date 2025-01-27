@@ -1,0 +1,93 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+
+#User-Organizer-Main-Parent{
+    /* background-color: rgb(97, 56, 116); */
+    background-image:url("../../images/240_F_614436659_Vja026nofcn3PRnO7UwJJOcQ3WK5Tppo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+}
+
+#User-organizer-Heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;   
+}
+
+#User-Organizer-second-Parent{
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#User-Organizer-second-Parent table{
+    gap: 2em; 
+    padding: 1vw ;
+    background-color:none;
+    table-layout: fixed;
+}
+
+
+#User-Organizer-second-Parent table th{
+    padding:2vw 3vw ; 
+     font-size: 1.6vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);  */
+}
+
+#User-Organizer-second-Parent table td{
+    padding: 2.4vw !; 
+    text-align: center;
+    font-size: 1.3vw;
+    font-weight: 400;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    
+
+}
+
+
+
+#user-Organizer-Rejected-or-Accepet-button button {
+    padding: 0.5em 1em;
+}
+
+#user-Organizer-Accepet-button{
+    background-color: rgb(0,210,127);
+}
+
+#user-Organizer-Rejected-button{
+    background-color: rgb(255,0,101);
+}
+
+
+
+
+@media screen  and (min-width:200px) and (max-width:500px) {
+    #User-organizer-Heading{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em;   
+    }
+
+    #User-Organizer-second-Parent table th{
+        padding:2vw 1.7em ; 
+         font-size: 1em;
+     
+    }
+
+    #User-Organizer-second-Parent table td{
+        padding: 2.4em !; 
+        font-size: 1em;
+    }
+    
+}

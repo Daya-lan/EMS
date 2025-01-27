@@ -1,0 +1,288 @@
+*{
+    padding: 0px ; 
+    margin: 0px; 
+    box-sizing: border-box;
+}
+
+
+#AdminNav-sideBar-main-Parent{
+    height:80vh;
+}
+
+.offcanvas-body{
+    background-color: rgb(117, 72, 137) ; 
+}
+
+#AdminNav-SideBar-child{
+    background-color: rgb(117, 72, 137) ;
+}
+
+#AdminNav-SideBar-child ul{
+    list-style-type: none;
+    gap: 2.5em;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+#AdminNav-SideBar-child ul li{
+    color: white;
+    width: 300px;
+    padding: 0.5vw;
+    border-radius: 0.5em;
+    transition: 0.5s all ease-in-out; 
+    
+}
+
+li:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    color:white;
+}
+
+#AdminNav-SideBar-child ul li:hover{
+    cursor: pointer;
+    padding: 1.4vw;
+    transform: scale(100px);
+    transition: 0.5s all ease-in-out; 
+    
+}
+
+#AdminNav-side-bar-Logout{
+    
+}
+
+#AdminNav-side-bar-Logout button{
+
+    width: 300px;
+    padding: 0.5vw;
+    background-color: none;
+    border-radius: 0.5em; 
+    font-weight: 600;
+    background-color:rgb(117, 72, 137) ;
+    border: none;
+    color: white;
+
+}
+
+#AdminNav-side-bar-Logout button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    color: white;
+    cursor: pointer;
+    padding: 1.4vw;
+    transform: scale(100px);
+    transition: 0.5s all ease-in-out;   
+}
+
+#offcanvas-header{
+    gap:230px;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    #offcanvas-header{
+        gap: 150px;
+    }
+
+    #AdminNav-side-bar-Logout button{
+
+        width: 300px;
+        padding: 0.5em;
+        border-radius: 0.5em;
+    
+    }
+
+    #AdminNav-SideBar-child ul li{
+        width: 290px;
+        padding: 0.5em;
+        border-radius: 0.5em; 
+        
+    }
+
+    #offcanvasWithBothOptionsLabel{
+        font-size: 2.5em;
+       }
+
+       #Admin-Management-Side-Bar-Btn-Close{
+        font-size: 2em;
+       }
+
+       #AdminNav-SideBar-child ul{
+        gap: 3em;
+        font-size: 1em;
+    }
+
+    #AdminNav-side-bar-Logout button:hover{
+        cursor: pointer;
+        padding: 3vw;
+        transform: scale(100px);
+        transition: 0.5s all ease-in-out; 
+        cursor: pointer;
+        border: 1px solid black;
+        box-shadow: 2px 2px 5px black;
+        color:white;  
+    }
+
+    #AdminNav-SideBar-child ul li:hover{
+        cursor: pointer;
+        padding: 3vw;
+        transform: scale(100px);
+        transition: 0.5s all ease-in-out;
+        cursor: pointer;
+        border: 1px solid black;
+        box-shadow: 2px 2px 5px black;
+        color: white; 
+        
+    }
+
+
+}
+
+            /* Navbar starting */
+
+#AdminNavbar-main-Parent{
+    width: 100%;
+    overflow: auto;
+}
+
+#admin-menu-bar-parent{
+    color:rgb(97, 56, 116) ;
+}
+
+#AdminNavbar-second-Parent{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+#Adminnavbar-first-Child{
+    background-color:  rgb(97, 56, 116);
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    padding: 1vw ;
+    top: 0px;
+    z-index: 1;
+}
+
+#Adminnavbar-first-Child h2{
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#Adminnavbar-logo img{
+    width: 60px;
+    border-radius:200px ;
+}
+
+
+
+#AdminNavbar-second-Child-parent{
+    background-color:  rgb(117, 72, 137);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw ;
+    height: 89.4vh;
+    z-index: -1;
+    /* margin-top: 76px; */
+}
+#AdminNavbar-second-Child-parent ul {
+    list-style-type: none;
+    list-style-type: none;
+    gap: 2vw ;
+    /* font-size: 1.1vw ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    /* height: 100%; */
+}
+
+#AdminNavbar-second-Child-parent ul li  div{
+    font-size:1.2vw;
+    padding: 0.5em 2em;
+    padding-bottom:0px;
+    gap: 1.5em;
+    /* width: 16vw; */
+}
+
+
+#AdminNavbar-second-Child-parent ul li{
+    color: white;
+    /* width:15vw; */
+    /* padding: 0.5vw; */
+    border-radius: 0.5em;
+    transition: 0.5s all ease-in-out; 
+    gap: 1.5em;
+    /* display: flex;
+    justify-content: start; */
+    
+}
+
+#AdminNavbar-second-Child-parent ul li:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+}
+
+#AdminNavbar-second-Child-parent ul button{
+    width: 15vw;
+    padding: 0.5vw;
+    background-color: none;
+    border-radius: 0.5em; 
+    font-weight: 600;
+    background-color:rgb(117, 72, 137) ;
+    border: none;
+    color: white;
+    font-size:1.2vw;
+}
+#AdminNavbar-second-Child-parent ul button:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    color: white;
+    transition: 0.5s all ease-in-out;
+}
+
+#Admin-Profile-png-image{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    gap: 0.5vw;
+}
+#Admin-Profile-png-image img{
+    width: 7vw;
+}
+
+#Admin-Profile-png-image p{
+    font-size: 2vw;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-seri;
+    color: white;
+}
+
+#Admin-Profile-png-image div h2{
+    color: white;
+    transition: all 1s ease;
+    
+}
+
+#Admin-Profile-png-image div h2:hover{
+    color:black;
+    cursor: pointer;
+    text-shadow: 2px 2px whitesmoke;
+}

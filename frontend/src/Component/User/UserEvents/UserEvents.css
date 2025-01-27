@@ -1,0 +1,125 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+
+#Events-Main-Parent{
+    /* background-color: rgb(97, 56, 116); */
+    background-image:url("../../images/useraddEventBgImage.webp");
+    height: 100vh;
+    justify-content: center;
+}
+
+#UserEvents-Heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;   
+}
+
+#Events-second-Parent{
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#Events-second-Parent table{
+    gap: 2em; 
+    padding: 1vw ;
+    background-color:none;
+    table-layout: fixed;
+}
+
+
+#Events-second-Parent table th{
+    padding:2vw 3vw ; 
+     font-size: 1.6vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);  */
+}
+
+#Events-second-Parent table td{
+    padding: 2.4vw !; 
+    text-align: center;
+    font-size: 1.3vw;
+    font-weight: 400;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    
+
+}
+
+#Events-second-Parent table tr{
+    /* padding: 1em;   */
+}
+
+#UserEvents-Status{
+    border-radius: 5em;
+    text-align: center;
+    font-size: 1.3vw;
+    font-weight: 400;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    top: 20px;
+}
+
+#User-Event-Cancel-Button{
+    padding-left:1em ;
+}
+
+#user-Events-Timer p {
+    background-color: blue;
+}
+
+#User-Event-Cancel-Button{
+    margin-top: 0px;
+}
+
+#User-Event-Cancel-Button button{
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 0.9em; */
+    width: 150px;
+    padding:0.5vw;
+    border-radius: 0.5em;
+    border: none;
+    color:white;
+    background-color:rgb(255,69,69);
+    transition: 0.5s all ease-in;
+}
+#User-Event-Cancel-Button button:hover{
+    background-color: 	rgb(255,0,101);
+}
+
+@media screen  and (min-width:200px) and (max-width:500px) {
+    #UserEvents-Heading{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em;   
+    }
+
+    #Events-second-Parent table th{
+        padding:2vw 1.7em ; 
+         font-size: 1em;
+     
+    }
+
+    #Events-second-Parent table td{
+        padding: 2.4em !; 
+        font-size: 1em;
+    }
+
+    #UserEvents-Status{
+        border-radius: 5em;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 400;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+        top:0px;
+    }
+}
+

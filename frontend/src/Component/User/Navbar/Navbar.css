@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#sideBar-main-Parent{
+    height:80vh;
+}
+
+.offcanvas-body{
+    background-color: rgb(97, 56, 116) ; 
+}
+
+#SideBar-child{
+    background-color: rgb(97, 56, 116) ;
+}
+
+#SideBar-child ul{
+    list-style-type: none;
+    gap: 2.5em;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.offcanvas-header{
+    background-color: rgb(255, 203, 106);  
+    color: white; 
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+    
+}
+#offcanvasWithBothOptionsLabel{
+    background-color: rgb(255, 203, 106);  
+    color: white; 
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    
+}
+
+.offcanvas-header button:hover{
+    color: rgb(97, 56, 116) ;
+    font-weight: 600;
+}
+
+#SideBar-child ul li{
+    color: white;
+    width: 300px;
+    padding: 0.5vw;
+    border-radius: 0.5em;
+    transition: 0.5s all ease-in-out; 
+    
+}
+li:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+}
+
+#SideBar-child ul li:hover{
+    cursor: pointer;
+    padding: 1.4vw;
+    transform: scale(100px);
+    transition: 0.5s all ease-in-out; 
+    
+}
+
+#side-bar-Logout{
+    
+}
+
+#side-bar-Logout button{
+    width: 300px;
+    padding: 0.5vw;
+    background-color: none;
+    border-radius: 0.5em; 
+    font-weight: 600;
+    background-color:rgb(97, 56, 116) ;
+    border: none;
+    color: white;
+    
+}
+
+#side-bar-Logout button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    cursor: pointer;
+    padding: 1.4vw;
+    transform: scale(100px);
+    transition: 0.5s all ease-in-out;    
+}
+
+#offcanvas-header{
+    gap:230px;
+}
+
+#Side-bar-gap-all{
+    gap: 1em;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    #offcanvas-header{
+        gap: 15px;
+    }
+    #side-bar-Logout button{
+        width: 300px;
+        padding: 0.5em;
+        border-radius: 0.5em;
+    }
+
+    #SideBar-child ul li{
+        width: 290px;
+        padding: 0.5em;
+        border-radius: 0.5em;
+    }
+
+   #offcanvasWithBothOptionsLabel{
+    font-size: 2em;
+   }
+   #Side-Bar-Btn-Close{
+    font-size: 1.5em;
+   }
+
+   #SideBar-child ul{
+    gap: 3em;
+    font-size: 1em;
+}
+
+#side-bar-Logout button:hover{
+    cursor: pointer;
+    padding: 3vw;
+    transform: scale(100px);
+    transition: 0.5s all ease-in-out; 
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    color: black;  
+}
+
+#SideBar-child ul li:hover{
+    cursor: pointer;
+    padding: 3vw;
+    transform: scale(100px);
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    color: black; 
+    
+}
+
+}
+
+            /* Navbar starting */
+
+#Navbar-main-Parent{
+    width: 100%;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#Navbar-second-Parent{
+    background-color:  rgb(97, 56, 116);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    z-index: 2;
+    
+
+}
+
+#navbar-first-Child{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    padding: 1.3vw;
+}
+
+#navbar-logo img{
+    width: 60px;
+    border-radius:200px ;
+}
+
+
+
+#Navbar-second-Child-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3vw;
+}
+#Navbar-second-Child-parent ul{
+    list-style-type: none;
+    list-style-type: none;
+    gap: 2vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#Navbar-second-Child-parent ul li{
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    width: 8vw;
+    padding: 0.6vw;
+    background-color:rgb(255, 203, 106);
+    color: white;
+    border-radius: 2em;
+    transition: transform 1s;
+    
+}
+
+
+
+#Navbar-second-Child-parent ul li:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+    box-shadow: inset  0px 5px 10px black;
+    background-color:rgb(111, 15, 103);
+
+}
+
+#Navbar-second-Child-parent ul button{
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    width: 8vw;
+    padding: 0.6vw;
+    background-color:rgb(255, 203, 106);
+    color: white;
+    border-radius: 2em;
+    transition: transform 1s;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#Navbar-second-Child-parent ul button:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+}
+
+
+
+
+
