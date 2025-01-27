@@ -116,7 +116,7 @@ export const Navbar = () => {
                 <Link className="text-decoration-none" to="/">
                   <li
                     className=" px-3 d-flex justify-content-center align-items-center"
-                    id="Side-bar-gap-all"
+                    id="Side-bar-gap-all" data-bs-dismiss="offcanvas"
                   >
                     <FaHome />
                     Dashbord
@@ -125,7 +125,7 @@ export const Navbar = () => {
                 <Link className="text-decoration-none" to="UserEvents">
                   <li
                     className="d-flex justify-content-center align-items-center"
-                    id="Side-bar-gap-all"
+                    id="Side-bar-gap-all" data-bs-dismiss="offcanvas"
                   >
                     <BsCalendarEventFill />
                     Events
@@ -134,7 +134,7 @@ export const Navbar = () => {
                 <Link className="text-decoration-none" to="AddEvents">
                   <li
                     className="d-flex justify-content-center align-items-center"
-                    id="Side-bar-gap-all"
+                    id="Side-bar-gap-all" data-bs-dismiss="offcanvas"
                   >
                     <FaAddressCard />
                     Add events
@@ -143,14 +143,14 @@ export const Navbar = () => {
                 <Link className="text-decoration-none" to="UserOrganizer">
                   <li
                     className="d-flex justify-content-center align-items-center"
-                    id="Side-bar-gap-all"
+                    id="Side-bar-gap-all" data-bs-dismiss="offcanvas"
                   >
                     <FaUsers />
                     Organizer
                   </li>
                 </Link>
                 <Link className="text-decoration-none" to="Notification">
-                  <li className="d-flex justify-content-center align-items-center">
+                  <li className="d-flex justify-content-center align-items-center" data-bs-dismiss="offcanvas" >
                     Notification
                   </li>
                 </Link>
