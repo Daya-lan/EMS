@@ -25,7 +25,7 @@ AdminRouter.post("/AdminLogin", async (req,res)=>{
 AdminRouter.get('/AdminData', async (req,res)=>{
     try {
         const data = await Admin.findOne()
-        res.send(data)
+        res.json(data)
     } catch (error) {
         console.log('error when fetching Admin ',error);
         res.status(400).json({message:'error fetching admin ',error})  
