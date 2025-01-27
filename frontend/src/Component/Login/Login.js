@@ -84,7 +84,7 @@ export const Login = () => {
       }
     } catch (error) {
       setLoginErr("your UserName or  Password  is Invalid please check");
-      console.log("error when you login", error);
+      console.log("error when you login user", error);
     }
   }
 
@@ -101,7 +101,7 @@ export const Login = () => {
       }
     } catch (error) {
       setLoginErr("your UserName or  Password  is Invalid please check");
-      console.log("error when you login", error);    
+      console.log("error when you login admin", error);    
     }
   }
   };
