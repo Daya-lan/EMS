@@ -22,7 +22,7 @@ userrouter.post("/UserRegister", async (req,res)=>{
 })
 
 
-userrouter.post("/userlogin", async(req,res)=>{
+userrouter.post("/userlogin", async(req,res)=>{ 
     try {
         const {userName,password} = req.body
 

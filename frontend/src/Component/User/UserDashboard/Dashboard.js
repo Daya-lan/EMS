@@ -28,6 +28,7 @@ export const Dashboard = () => {
           </div>
         </div>
       </div>
+
       <div className="row p-0 m-0" id="User-Dashboard-Second-part">
         <div className="col-12 m-0" id="user-Dashboard-second-child">
           <div id="user-Dashboard-Marriage">
@@ -69,32 +70,32 @@ export const Dashboard = () => {
         </div>
       </div>
 
-      <section className="container-fluid p-0 m-0" id="User-Dashbord-Footer-Main-Parent">
-        <footer className="row m-0 p-0" id="user-Dashboard-second-parent">
-          <div className="col-6" >
-          <article id="user-Dashboard-information">
-            <main id="user-Dashboard-end-line">
-              <p id="user-Dashboard-contact-line"></p>
+      <section className="container-fluid m-0 p-0" id="Event-User-Dashbord-Footer-Main-Parent">
+        <footer className="row m-0 p-0" id="Event-user-Dashboard-second-parent">
+          <div className="col-xxl-6 col-xl-12 col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-5 p-0 m-0" >
+          <article id="Event-user-Dashboard-information">
+            <main id="Event-user-Dashboard-end-line" className="" >
+              <p id="Event-user-Dashboard-contact-line" className="d-none" ></p>
             </main>
 
-            <p id="user-Dasboard-contact">Contact</p>
+            <p id="Event-user-Dasboard-contact">Contact</p>
 
-            <main id="user-Dashboard-info-one">
-              <p id="user-Dashboard-address">
-                500 terry franchies street, san francisco CA 94158{" "}
+            <main id="Event-user-Dashboard-info-one">
+              <p id="Event-user-Dashboard-address">
+                500 terry franchies street,<br></br> san francisco CA 94158{" "}
               </p>
             </main>
 
-            <main id="user-Dashboard-info-two">
+            <main id="Event-user-Dashboard-info-two">
               <p>Tel: 123-456-7890</p>
               <p>Fax: 123-456-7890</p>
             </main>
 
-            <main id="user-Dashboard-info-two">
+            <main id="Event-user-Dashboard-info-three">
               <p>info@myEvent.com</p>
             </main>
 
-            <main id="user-Dashboard-info-three">
+            <main id="Event-user-Dashboard-info-four">
               <p>
                 <i class="fa-brands fa-facebook"></i>
               </p>
@@ -112,8 +113,8 @@ export const Dashboard = () => {
               </p>
             </main>
 
-            <main id="user-Dashboard-info-four">
-              <p id="user-Dashboard-Personal">
+            <main id="Event-user-Dashboard-info-four">
+              <p id="Event-user-Dashboard-Personal">
                 2035 by Personal Life Coach
                 <br />
                 powered and Secured by My  Event
@@ -121,7 +122,7 @@ export const Dashboard = () => {
             </main>
           </article>
           </div>
-          <div className="col-6" >
+          <div className="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-0 m-0 " >
           <form>
             <table>
               <tr>

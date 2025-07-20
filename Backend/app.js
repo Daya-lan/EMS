@@ -10,7 +10,6 @@ const AddEventRouter = require("./Routes/AddEventRouter")
 const AssignOrganizerRouter = require("./Routes/AssignOrganizer")
 const Message = require("./Routes/NotificationRouter")
 const PORT = process.env.PORT || 4000
-// hello
 
 const corsOption = {
     origin:process.env.APPLICATION_URL,
