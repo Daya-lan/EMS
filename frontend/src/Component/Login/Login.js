@@ -78,7 +78,8 @@ export const Login = () => {
         setUserLogin({ userName: "", password: "" });
         setUserDtl(UserResponse.data.CheckUser)
         setDash(false)
-        navigate("/")
+        login("User");
+        navigate("/Dashboard")
         const UserToken = "User"
         login(UserToken)
       }
@@ -95,7 +96,8 @@ export const Login = () => {
         alert("Adminlogin successfully")
         setUserLogin({userName:"",password:''})
         setDash(true)
-        navigate("/Dashboard")
+        login("Admin");
+        navigate("/AdminDashboard")
         const UserToken = "Admin"
         login(UserToken)
       }

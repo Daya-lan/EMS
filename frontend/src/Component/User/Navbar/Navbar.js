@@ -47,7 +47,7 @@ export const Navbar = () => {
             className=" d-flex justify-content-center align-items-center"
             id="Navbar-Second-Child"
           >
-            <Link className="text-decoration-none" to="/">
+            <Link className="text-decoration-none" to="/Dashboard">
               <li className="d-flex justify-content-center align-items-center ">
                 <FaHome />
                 Dashbord
@@ -81,7 +81,7 @@ export const Navbar = () => {
               <TbMessageReportFilled />Notification
               </li>
             </Link>
-            <Link className="text-decoration-none" to="/Login">
+            <Link className="text-decoration-none" to="/">
               <button onClick={logout}>
                 Log
                 <AiOutlineLogout />
@@ -113,7 +113,7 @@ export const Navbar = () => {
           <div className="row " id="sideBar-main-Parent">
             <div className="col py-5 " id="SideBar-child">
               <ul className="d-flex justify-content-center align-items-center">
-                <Link className="text-decoration-none" to="/">
+                <Link className="text-decoration-none" to="/Dashboard">
                   <li
                     className=" px-3 d-flex justify-content-center align-items-center"
                     id="Side-bar-gap-all" data-bs-dismiss="offcanvas"
@@ -155,7 +155,7 @@ export const Navbar = () => {
                   </li>
                 </Link>
                 <div className="" id="side-bar-Logout">
-                  <Link className="text-decoration-none" to="/Login">
+                  <Link className="text-decoration-none" to="/">
                     <button onClick={logout}>
                       Log
                       <AiOutlineLogout />

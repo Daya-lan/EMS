@@ -48,7 +48,7 @@ export const AdminNavbar = () => {
                 className=" py-4 d-flex justify-content-center align-items-start"
                 id="Navbar-Second-Child"
               >
-                <Link className="text-decoration-none" to="/Dashboard">
+                <Link className="text-decoration-none" to="/AdminDashboard">
                 <li className=""  >
                   <div className="d-flex justify-content-start  align-items-start">
                   <p><FaHome /></p>
@@ -88,7 +88,7 @@ export const AdminNavbar = () => {
                   </div>
                 </li>
                 </Link>
-                <Link className="text-decoration-None"  to="/log-in" >
+                <Link className="text-decoration-None"  to="/" >
                 <button onClick={logout} >Logout</button>
                 </Link>
               </ul>
@@ -120,7 +120,7 @@ export const AdminNavbar = () => {
               className=""
               id="AdminNav-side-bar-Logout"
             >
-              <Link className="text-decoration-none" to="/log-in" >
+              <Link className="text-decoration-none" to="/" >
               <button onClick={logout} >Logout</button>
               </Link>
             </div>
