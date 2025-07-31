@@ -54,7 +54,7 @@ export const ForgetPassword = () => {
             console.log(ForPassword.data);
             alert("Admin password changed")
             setForgetPassword({email:'',password:''}) 
-            navigate("/Login")
+            navigate("/")
           }
         } catch (error) {
           console.log(error.message);
@@ -68,7 +68,7 @@ export const ForgetPassword = () => {
           console.log(ForPassword.data);
           alert("Your password changed")
           setForgetPassword({email:"",password:''})
-          navigate("/Login")
+          navigate("/")
         }
       } catch (error) {
         console.log("your email is incorrect",error);
@@ -139,7 +139,7 @@ export const ForgetPassword = () => {
                   <button type="submit">Reset Password</button>
                 </div>
                 <div id='Forget-password-Login-Link-Parent' >
-                  <Link className='text-decoration-none' to="/Login" >
+                  <Link className='text-decoration-none' to="/" >
                   <p>Login..?</p>
                   </Link>
                 </div>

@@ -81,7 +81,7 @@ export const Register = () => {
             confirmPassword: "",
           });
         }
-        navigate("/Login")
+        navigate("/")
       }
 
       else {
@@ -213,7 +213,7 @@ export const Register = () => {
                 <button type="submit">SignUp</button>
               </div>
               <div id="Register-Sign-In-Parent" >
-                  <Link className='text-decoration-none' to="/Login" >
+                  <Link className='text-decoration-none' to="/" >
                   <p>Sign-In..?</p>
                   </Link>
                 </div>
