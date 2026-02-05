@@ -1,7 +1,6 @@
-import React, { useCallback, useContext, useState } from "react";
+import {React, useContext} from "react";
 import"./AdminNavbar.css"
 import { GiHamburgerMenu } from "react-icons/gi";
-import { FaUserTie } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { BsCalendarEventFill } from "react-icons/bs";
 import { FaAddressCard } from "react-icons/fa";
@@ -15,7 +14,7 @@ import { FaUserXmark } from "react-icons/fa6";
 import { FaUserCheck } from "react-icons/fa";
 
 export const AdminNavbar = () => {
-  const {authen,logout} = useContext(LoginDetails)
+  const {logout} = useContext(LoginDetails)
   return (
     <section className=".container-fluid mx-0" id="AdminNavbar-main-Parent">
       <div className="row mx-0 d-none " id="AdminNavbar-second-Parent">

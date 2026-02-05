@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import axios, { all } from 'axios'
-// import TotalUser from "../Admin-images/TotalUser-png.webp"
+import axios from 'axios'
 import TotalUser from "../../images/TotalUser-png.webp"
 import TotalEvent from '../../images/1744183.png'
 import TotalOrganizer from '../../images/organisers-png-are-you-an-event-goer-or-an-event-organizer-venue-owner-700.png'
