@@ -114,7 +114,7 @@ img{
 #user-Dashboard-Marriage-text{
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 86%;
     height: 100%;
     top: 200px;
     /* width: 90%;
@@ -163,7 +163,7 @@ img{
 #user-Dashboard-Wedding-text{
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 86%;
     top: 200px;
     font-size: 4vw;
     color: white;
@@ -206,7 +206,7 @@ img{
 #user-Dashboard-Birthday-text{
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 86%;
     top: 200px;
     font-size: 4vw;
     color: white;
@@ -249,7 +249,7 @@ img{
 #user-Dashboard-Earpiercing-text{
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 86%;
     top: 200px;
     font-size: 4vw;
     color: white;
@@ -294,7 +294,7 @@ img{
 #user-Dashboard-conference-text{
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 86%;
     top: 200px;
     font-size: 4vw;
     color: white;
@@ -340,7 +340,7 @@ img{
 #user-Dashboard-party-text{
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 86%;
     top: 200px;
     font-size: 4vw;
     color: white;
@@ -397,6 +397,7 @@ img{
     justify-content:center;
     align-items:center;
     margin-top:100px;
+    padding: 1em;
 }
 
 #Event-User-Dashbord-Footer-Main-Parent form  input{
@@ -411,7 +412,7 @@ img{
 }
 
 #Event-User-Dashbord-Footer-Main-Parent form  textarea {
-     width:70vh;
+     width:100%;
    background-color:black;
    color:white;
    border:none;
@@ -422,7 +423,7 @@ img{
 
 #Event-User-Dashbord-Footer-Main-Parent form button{
     width:30%;
-    padding:1em;
+    padding:0.5em;
     font-family:sans;
     text-transform:uppercase;
     font-weight:600;
