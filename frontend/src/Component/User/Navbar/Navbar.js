@@ -1,4 +1,4 @@
-import React, { useContext} from "react";
+import {React, useContext} from "react";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaHome } from "react-icons/fa";
@@ -70,11 +70,6 @@ export const Navbar = () => {
                 Organizer
               </li>
             </Link>
-            {/* <Link className="text-decoration-none" to="Login">
-              <li className="d-flex justify-content-center align-items-center">
-                <FaUserTie />
-              </li>
-            </Link> */}
             <Link className="text-decoration-none" to="Notification">
               <li className="d-flex justify-content-center align-items-center">
               <TbMessageReportFilled />Notification
@@ -170,34 +165,3 @@ export const Navbar = () => {
   );
 };
 
-{
-  /* <div className="row d-lg-none " style={side? {display:"none"}:{display:"block"}} id="sideBar-main-Parent">
-<div className="col py-5 " id="SideBar-child">
-  <ul className="d-flex justify-content-center align-items-center">
-    <li className="d-flex justify-content-center align-items-center">
-      <FaHome />
-      Dashbord
-    </li>
-    <li className="d-flex justify-content-center align-items-center">
-      <BsCalendarEventFill />
-      Events
-    </li>
-    <li className="d-flex justify-content-center align-items-center">
-      <FaAddressCard />
-      Add events
-    </li>
-    <li className="d-flex justify-content-center align-items-center">
-      <FaUsers />
-      Organizer
-    </li>
-    <div
-    className=""
-    id="side-bar-Logout"
-  >
-    <button>Logout</button>
-  </div>
-  </ul>
-
-</div>
-</div> */
-}
