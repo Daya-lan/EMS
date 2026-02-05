@@ -1,7 +1,6 @@
 import React, { useContext} from "react";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { FaUserTie } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { BsCalendarEventFill } from "react-icons/bs";
 import { FaAddressCard } from "react-icons/fa";
@@ -13,7 +12,7 @@ import { LoginDetails } from "../../Login/AuthenContext";
 import { TbMessageReportFilled } from "react-icons/tb";
 
 export const Navbar = () => {
-  const { authen, logout } = useContext(LoginDetails);
+  const {logout } = useContext(LoginDetails);
   return (
     <section className=".container-fluid p-0 m-0" id="Navbar-main-Parent">
       <div className="row m-0 p-0" id="Navbar-second-Parent">
